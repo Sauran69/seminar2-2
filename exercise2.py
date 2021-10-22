@@ -1,8 +1,13 @@
-a=3
-b=4
-c=(a*a)+(b*b)
-c=c**(0.5)
-P=a+b+c
-S=(a+b)/2
-print(a,b,c,P,S) 
+print("Введите первое число: ")
+a = float(input()) * 2 
+
+print("Введите второе число: ")
+b = float(input()) / 3
+
+print("Введите третье число: ")
+c = float(input())
+
+
+print(a + b + c**c)
+
 
