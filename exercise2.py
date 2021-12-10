@@ -1,13 +1,17 @@
-print("Введите первое число: ")
-a = float(input()) * 2 
-
-print("Введите второе число: ")
-b = float(input()) / 3
-
-print("Введите третье число: ")
-c = float(input())
+AB = input('длина первого катета:')
+AC = input('длина второго катета:')
 
 
-print(a + b + c**c)
+AB = float(AB)
+AC = float(AC)
 
+
+BC = (AB**2 + AC**2)
+
+S = (AB*AC)/2
+P = AB + AC + BC
+
+print('площадь треугольника' , S)
+print('периметр треугольника', P)
+print('гипотенуза треугольника', BC)
 
